@@ -1,1 +1,1 @@
-# Java programmers Algorithm
+# Java Algorithm Problem Solving
