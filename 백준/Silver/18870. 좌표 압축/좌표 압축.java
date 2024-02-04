@@ -31,7 +31,7 @@ public class Main {
         if (leftMostIdx == -1) {
             return 0;
         }
-        return leftMostIdx + 1;
+        return leftMostIdx;
     }
 
     private static int findLeftMostIndex(int[] arr, int target) {
@@ -44,7 +44,7 @@ public class Main {
 
             if (arr[mid] == target) {
                 leftMostIdx = mid;
-                right = mid - 1;
+                right=mid-1;
             } else if (arr[mid] < target) {
                 left = mid + 1;
             } else {
@@ -52,6 +52,6 @@ public class Main {
             }
         }
 
-        return leftMostIdx-1;
+        return leftMostIdx;
     }
 }
