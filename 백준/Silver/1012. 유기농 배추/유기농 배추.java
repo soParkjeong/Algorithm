@@ -30,8 +30,6 @@ public class Main {
     }
 
     private static int countWorms(int[][] field) {
-        int[] dx = {-1, 1, 0, 0}; // 상하좌우 이동
-        int[] dy = {0, 0, -1, 1};
         int count = 0; // 필요한 배추흰지렁이 수
 
         for (int i = 0; i < field.length; i++) {
@@ -70,3 +68,5 @@ public class Main {
         }
     }
 }
+
+
