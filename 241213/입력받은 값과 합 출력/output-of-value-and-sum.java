@@ -4,7 +4,6 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
         int b=sc.nextInt();
-        int result=a+b;
-        System.out.printf("%d %d %d",a,b,result);
+        System.out.printf("%d %d %d",a,b,a+b);
     }
 }
