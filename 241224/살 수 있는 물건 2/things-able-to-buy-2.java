@@ -10,7 +10,7 @@ public class Main {
             pur="book";
         }
         else if(n>=1000){
-            pur="mask"
+            pur="mask";
         }
         else if(n>=500){
             pur="pen";
@@ -18,6 +18,6 @@ public class Main {
         else{
             pur="no";
         }
-        System.out.print(score);
+        System.out.print(pur);
     }
 }
