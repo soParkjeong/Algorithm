@@ -7,14 +7,11 @@ public class Main {
         int result=0;
 
         if(a%2==1){
-            result=a+3;
-        }
-        if(result%3==0){
-            result/=3;
+            a+=3;
         }
         if(a%3==0){
-            result=a/3;
+            a/=3;
         }
-        System.out.print(result);
+        System.out.print(a);
     }
 }
