@@ -6,18 +6,8 @@ public class Main {
         int a=sc.nextInt();
         int b=sc.nextInt();
         int c=sc.nextInt();
-        int result=0;
 
-        if((a<=b)&&(a<=c)){
-            result=a;
-        }
-        else if((a>=b)&&(b>=c)){
-            result=c;
-        }
-        else{
-            result=b;
-        }
-        System.out.print(result);
+        System.out.print((a<=b)?((a<=c)?a:c):((b>=c)?c:b));
         
     }
 }
