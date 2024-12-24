@@ -10,6 +10,6 @@ public class Main {
         System.out.println(a>=b?1:0);
         System.out.println(a>b?1:0);
         System.out.println(b>=a?1:0);
-        System.out.println(b>=a?1:0);
+        System.out.println(b>a?1:0);
     }
 }
