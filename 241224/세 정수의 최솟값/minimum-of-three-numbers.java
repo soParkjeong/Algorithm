@@ -8,21 +8,14 @@ public class Main {
         int c=sc.nextInt();
         int result=0;
 
-        if(a<=b){
-            if(a<=c){
-                result=a;
-            }
-            else{
-                result=c;
-            }
+        if((a<=b)&&(a<=c)){
+            result=a;
+        }
+        else if((a>=b)&&(b>=c)){
+            result=c;
         }
         else{
-            if(b<=c){
-                result=b;
-            }
-            else{
-                result=c;
-            }
+            result=b;
         }
         System.out.print(result);
         
