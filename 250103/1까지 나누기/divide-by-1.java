@@ -3,13 +3,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int cnt=1;
+        int cnt=0;
         int n=sc.nextInt();
-        for(int i=1;i<=n;i++){
+        int a=n;
+
+        for(int i=1;i<=a;i++){
             cnt++;
             n/=i;
             
-            if((n/i)<=1){
+            if(n<=1){
                 break;
             }
         }
