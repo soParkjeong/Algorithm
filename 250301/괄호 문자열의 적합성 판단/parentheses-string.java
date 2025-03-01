@@ -20,10 +20,9 @@ public class Main {
                     if(stack.isEmpty()){
                         check=false;
                     }//아직 닫는 괄호가 있는데 스택이 빈 경우는 잘못된 괄호 
-                    while(stack.peek()!='('){
-                        stack.pop();
-                    }
+                    else{
                     stack.pop();
+                    }
                 }
             }
         }
