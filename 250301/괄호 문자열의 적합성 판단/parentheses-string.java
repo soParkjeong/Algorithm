@@ -19,6 +19,7 @@ public class Main {
                 }else{
                     if(stack.isEmpty()){
                         check=false;
+                        break;
                     }//아직 닫는 괄호가 있는데 스택이 빈 경우는 잘못된 괄호 
                     else{
                     stack.pop();
