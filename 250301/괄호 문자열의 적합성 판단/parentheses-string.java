@@ -9,7 +9,7 @@ public class Main {
         // for(char ch:arr){
         //     stack.push(ch);
         // }//스택에 모두 넣어주기 
-        boolean check=false;
+        boolean check=true;
         for(int i=0;i<arr.length;i++){
             if(arr[i]=='('){
                 stack.push(arr[i]);
@@ -17,6 +17,9 @@ public class Main {
                 if(stack.peek()=='('){
                     stack.pop();
                 }else{
+                    if(stack.isEmpty()){
+                        check=false;
+                    }//아직 닫는 괄호가 있는데 스택이 빈 경우는 잘못된 괄호 
                     while(stack.peek()!='('){
                         stack.pop();
                     }
@@ -24,11 +27,7 @@ public class Main {
                 }
             }
         }
-        if(stack.isEmpty()){
-            check=true;
-        }
-
-        if(check){
+        if(check && stack.isEmpty()){
             System.out.println("Yes");
         }else{
             System.out.println("No");
