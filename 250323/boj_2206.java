@@ -1,4 +1,4 @@
-package 과목평가;
+package boj;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -46,6 +46,7 @@ public class boj_2206 {
 		//visited[x][y][0] → 벽을 부수지 않고 (x, y)에 도착한 경우 방문 여부
 		//visited[x][y][1] → 벽을 한 번 부수고 (x, y)에 도착한 경우 방문 여부
 		//같은 좌표 (x, y)라도 벽을 부수고 방문한 경우와 부수지 않고 방문한 경우를 따로 체크하는 구조
+		//같은 좌표라도 현재 그 좌표를 방문할 때 벽을 부수고 왔는지, 벽을 부수지 않은 채로 왔는지에 따라 다음 경로가 바뀌기 때문에 저장하는 것임 
 		
 		Queue<Node>queue=new LinkedList<>();
 		
@@ -64,12 +65,15 @@ public class boj_2206 {
 				int new_y=node.y+dy[k];
 
 				if(new_x>=0 && new_x<N && new_y>=0 && new_y<M) {//벽을 넘어가지 않는 선에서 
-					if(!visited[new_x][new_y][1] && arr[new_x][new_y]==1 && node.cnt==0) {//아직 방문하지 않았고,아직 벽을 부순 적이 없고/새로 이동한 칸의 위치가 이동할 수 없는 곳이고/벽을 깬 횟수가 0일 때 
-						visited[new_x][new_y][1]=true;
-						queue.add(new Node(new_x,new_y,node.move+1,1));
-					}else if(arr[new_x][new_y]==0 && !visited[new_x][new_y][node.cnt]) {
-						visited[new_x][new_y][node.cnt]=true;
-						queue.add(new Node(new_x,new_y,node.move+1,node.cnt));
+					//벽을 부수고 이동하는 경우 
+					if(!visited[new_x][new_y][1] && arr[new_x][new_y]==1 && node.cnt==0) {//벽을 부순 상태로 방문한 적이 없고/이동할 위치가 벽(벽을 깨야 하는 곳)이고/벽을 깬 횟수가 0일 때 
+						visited[new_x][new_y][1]=true;//벽 부수고(cnt 값을 1로 변경) 방문한 곳 방문 처리 
+						queue.add(new Node(new_x,new_y,node.move+1,1));//움직인 횟수+1 해주고 큐에 add 하기 
+					}
+					//그냥 이동하는 경우(벽이 아님) 
+					else if(arr[new_x][new_y]==0 && !visited[new_x][new_y][node.cnt]) {//이동할 위치가 벽이 아님(그냥 이동 가능)/해당 상태(벽을 부수거나, 부수지 않았거나)로 방문하지 않았고(굳이 0이나 1로 표시하지 않는 이유-벽을 깬 전적이 없으니까 두 가지 경우 모두 고려하며 방문 여부만 체크) 
+						visited[new_x][new_y][node.cnt]=true;//벽을 부수지 않으니까 그 상태 그대로(node.cnt)(1로 바꿔주지 않음) 해당 상태로 방문한 곳 방문 처리 
+						queue.add(new Node(new_x,new_y,node.move+1,node.cnt));//움직인 횟수+1 해주고 큐에 add 하기 
 					}
 				}
 			}
@@ -77,3 +81,4 @@ public class boj_2206 {
 		return -1;
 	}
 }
+
