@@ -30,6 +30,7 @@ public class SWEA_contact {
 			
 			graph=new ArrayList<>();
 			visited=new ArrayList<>();
+			
 			for(int i=0;i<=100;i++) {//노드 최대 100개 
 				graph.add(new ArrayList<>());//초기화 
 				visited.add(false);//초기화 

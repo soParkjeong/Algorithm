@@ -45,8 +45,7 @@ public class SWEA_하나로 {
 				points[i][1]=sc.nextInt();//노드별 y좌표 쭈르륵 저장 
 			}
 			
-			//노드 간 모든 조합으로 간선 생각 
-			//두 점 사이 거리 공식써서 가중치로 저장하자(루트는 안해도 되겠지,,, 어차피 상대적 가중치 비교만 하면 되니까)
+			//두 점 사이 거리 공식써서 가중치로 저장하자(루트는 안해도 되겠지,,, 어차피 상대적 가중치비교만 하면 되니까)
 			//아 해저터널 길이 제곱의 곱만큼 지불한다는게 루트 안해주려고 그렇네,,,
 			for(int i=0;i<N;i++) {
 				for(int j=i+1;j<N;j++) {
@@ -62,7 +61,7 @@ public class SWEA_하나로 {
 			double E=sc.nextDouble();
 			
 			long L=prim(N,adj);
-			long result=Math.round(E*L);//소수점 첫번째 자리에서 반올림 
+			long result=Math.round(E*L);
 			
 			System.out.println("#"+tc+" "+result);
 		}
@@ -79,17 +78,14 @@ public class SWEA_하나로 {
 		
 		while(pick<V) {
 			Edge e=pq.poll();
-			
-//			if(visited[e.to]) {//중복 간선 선택 방지-
-//				continue;
-//			}
-			
-			if(!visited[e.to]) {
-				ans+=e.cost;
-				visited[e.to]=true;
-				pick++;
-				pq.addAll(adj[e.to]);
+			if(visited[e.to]) {
+				continue;
 			}
+			
+			ans+=e.cost;
+			visited[e.to]=true;
+			pick++;
+			pq.addAll(adj[e.to]);
 		}
 		return ans;
 	}
