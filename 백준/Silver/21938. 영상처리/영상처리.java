@@ -58,7 +58,7 @@ public class Main {
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < M; j++) {
 				if (gray[i][j] == 255 && !visited[i][j]) {
-					dfs(i, j);
+					dfs(i, j);//시작점 세기 
 					count++;
 				}
 			}
@@ -76,7 +76,7 @@ public class Main {
 			int ny=y+dy[k];
 			
 			if(nx>=0&&ny>=0&&nx<N&&ny<M) {
-				if(gray[nx][ny]>=T && !visited[nx][ny]) {
+				if(gray[nx][ny]==255 && !visited[nx][ny]) {
 					dfs(nx,ny);
 				}
 			}
