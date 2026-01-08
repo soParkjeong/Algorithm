@@ -32,7 +32,7 @@ class Solution {
         return node.val + sum(node.left) + sum(node.right);
     }
 
-    // 서브트리 합을 계산하면서 최대 곱 갱신
+    // 서브트리끼리의 합->최대 곱(서브트리*(전체-서브트리)) 갱신
     private long dfs(TreeNode node) {
         if (node == null) return 0L;
 
@@ -41,7 +41,6 @@ class Solution {
 
         long subSum = left + right + node.val;
 
-        // node를 루트로 하는 서브트리를 "떼어낸다"고 가정
         long product = subSum * (totalSum - subSum);
         if (product > max) max = product;
 
