@@ -29,4 +29,16 @@
 |  |
 | ------- |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/soParkjeong/Algorithm/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+## Array
+|  |
+| ------- |
+| [1266-minimum-time-visiting-all-points](https://github.com/soParkjeong/Algorithm/tree/master/1266-minimum-time-visiting-all-points) |
+## Math
+|  |
+| ------- |
+| [1266-minimum-time-visiting-all-points](https://github.com/soParkjeong/Algorithm/tree/master/1266-minimum-time-visiting-all-points) |
+## Geometry
+|  |
+| ------- |
+| [1266-minimum-time-visiting-all-points](https://github.com/soParkjeong/Algorithm/tree/master/1266-minimum-time-visiting-all-points) |
 <!---LeetCode Topics End-->
