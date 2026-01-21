@@ -34,6 +34,7 @@
 | ------- |
 | [1266-minimum-time-visiting-all-points](https://github.com/soParkjeong/Algorithm/tree/master/1266-minimum-time-visiting-all-points) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/soParkjeong/Algorithm/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
+| [3315-construct-the-minimum-bitwise-array-ii](https://github.com/soParkjeong/Algorithm/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 | [3453-separate-squares-i](https://github.com/soParkjeong/Algorithm/tree/master/3453-separate-squares-i) |
 ## Math
 |  |
@@ -56,4 +57,8 @@
 |  |
 | ------- |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/soParkjeong/Algorithm/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
+## Bit Manipulation
+|  |
+| ------- |
+| [3315-construct-the-minimum-bitwise-array-ii](https://github.com/soParkjeong/Algorithm/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 <!---LeetCode Topics End-->
