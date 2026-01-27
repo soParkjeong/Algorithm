@@ -1,7 +1,8 @@
 import java.util.*;
 
 class Solution {
-    
+    //모든 섬이 서로 통행 가능하도록 한다?
+    //모든 정점 연결, 최소 비용-> 프림 ㄱ    
     static class Edge {
         int to,cost;
 
@@ -12,15 +13,14 @@ class Solution {
     }
     
     public int solution(int n, int[][] costs) {
-        //모든 섬이 서로 통행 가능하도록 한다?
-        //모든 정점 연결, 최소 비용-> 프림 ㄱ
+
         List<Edge>[]graph=new ArrayList[n];
         for(int i=0;i<n;i++) graph[i]=new ArrayList<>();
         
         for(int []e: costs){
-            int a=e[0];
-            int b=e[1];
-            int c=e[2];
+            int a=e[0];//from,to
+            int b=e[1];//to,from
+            int c=e[2];//cost
             graph[a].add(new Edge(b,c));
             graph[b].add(new Edge(a,c));
         }
