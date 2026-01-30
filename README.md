@@ -38,6 +38,7 @@
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/soParkjeong/Algorithm/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/soParkjeong/Algorithm/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/soParkjeong/Algorithm/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/soParkjeong/Algorithm/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3315-construct-the-minimum-bitwise-array-ii](https://github.com/soParkjeong/Algorithm/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 | [3453-separate-squares-i](https://github.com/soParkjeong/Algorithm/tree/master/3453-separate-squares-i) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/soParkjeong/Algorithm/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -108,9 +109,15 @@
 ## Graph Theory
 |  |
 | ------- |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/soParkjeong/Algorithm/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/soParkjeong/Algorithm/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Shortest Path
 |  |
 | ------- |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/soParkjeong/Algorithm/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/soParkjeong/Algorithm/tree/master/3650-minimum-cost-path-with-edge-reversals) |
+## String
+|  |
+| ------- |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/soParkjeong/Algorithm/tree/master/2976-minimum-cost-to-convert-string-i) |
 <!---LeetCode Topics End-->
