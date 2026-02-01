@@ -40,6 +40,7 @@
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/soParkjeong/Algorithm/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/soParkjeong/Algorithm/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/soParkjeong/Algorithm/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/soParkjeong/Algorithm/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3315-construct-the-minimum-bitwise-array-ii](https://github.com/soParkjeong/Algorithm/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 | [3453-separate-squares-i](https://github.com/soParkjeong/Algorithm/tree/master/3453-separate-squares-i) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/soParkjeong/Algorithm/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -104,6 +105,7 @@
 | [1200-minimum-absolute-difference](https://github.com/soParkjeong/Algorithm/tree/master/1200-minimum-absolute-difference) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/soParkjeong/Algorithm/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/soParkjeong/Algorithm/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/soParkjeong/Algorithm/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 ## Sliding Window
 |  |
 | ------- |
@@ -122,4 +124,8 @@
 |  |
 | ------- |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/soParkjeong/Algorithm/tree/master/2976-minimum-cost-to-convert-string-i) |
+## Enumeration
+|  |
+| ------- |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/soParkjeong/Algorithm/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 <!---LeetCode Topics End-->
