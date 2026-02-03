@@ -46,6 +46,7 @@
 | [3315-construct-the-minimum-bitwise-array-ii](https://github.com/soParkjeong/Algorithm/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 | [3453-separate-squares-i](https://github.com/soParkjeong/Algorithm/tree/master/3453-separate-squares-i) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/soParkjeong/Algorithm/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+| [3637-trionic-array-i](https://github.com/soParkjeong/Algorithm/tree/master/3637-trionic-array-i) |
 ## Math
 |  |
 | ------- |
